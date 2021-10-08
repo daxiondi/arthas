@@ -1,9 +1,6 @@
 name: release
 
-on:
-  push:
-    tags:
-      - "arthas-all-*"
+on: [push]
 
 jobs:
   build:
